@@ -1,0 +1,30 @@
+digraph CarRentalERD {
+	rankdir=LR size=8
+	User [label="User
+--------------------
+user_id (PK)
+username
+password
+role" shape=record]
+	Car [label="Car
+--------------------
+car_id (PK)
+make
+model
+year
+mileage
+available
+min_rent_days
+max_rent_days
+daily_rate" shape=record]
+	Rental [label="Rental
+--------------------
+rental_id (PK)
+customer_id (FK)
+car_id (FK)
+start_date
+end_date
+status" shape=record]
+	User -> Rental [label="1..*"]
+	Car -> Rental [label="1..*"]
+}
