@@ -27,6 +27,7 @@ MSE800AS1/
 │ └── car_service.py # Handles car operations (add, list, update, delete)
 │
 └── README.md # Project documentation
+![alt text](image.png)
 
 
 ---
@@ -60,8 +61,8 @@ MSE800AS1/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/car-rental-system.git
-   cd car-rental-system
+   git clone https://github.com/HasibHasan03/MSE800_ASSIGNMENT1.git
+   cd MSE800_ASSIGNMENT1
 2. Make sure you have Python 3 installed:
 
 python --version
